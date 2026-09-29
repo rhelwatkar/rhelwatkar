@@ -4,17 +4,17 @@
 
 > "Secure by default, automated by design."
 
-I work where cloud security meets agentic AI. I have **15+ years in IT** and **7+ years securing AWS for payments companies**. I design cloud guardrails, run security programs for PCI DSS environments, and build AI agents that take over manual operations work.
+Cloud security engineer and architect with **15+ years in IT** and **7+ years of AWS security in PCI DSS–regulated payments environments**. I design multi-account security architectures, build infrastructure and security automation as code, and apply agentic AI to cloud operations.
 
 ---
 
 ## 🚀 About Me
 
-- 🔭 Currently building **AI agents on Amazon Bedrock AgentCore** for payments operations: merchant onboarding, settlements and chargebacks
-- 🔐 Leading **infrastructure security** for a payments platform: identity, detection, vulnerability management and compliance
-- 🧩 Built an **MCP server for Rapid7 InsightVM**
-- 🏗️ Write **Terraform modules and Python automation** that application teams use every day
-- 🎤 Spoke on *Securing Cloud Networks with NextGen Firewalls* at the Pune Cloud Security Champions program
+- ☁️ **Cloud security architecture:** multi-account AWS organizations, preventive guardrails, zero-trust identity and network segmentation
+- 🔐 **Security engineering:** SIEM pipelines, threat detection, vulnerability management and hardened images at scale
+- 🏗️ **Infrastructure as Code:** reusable Terraform modules, CloudFormation StackSets and Python/Boto3 automation
+- 🤖 **Agentic AI:** AI agents on Amazon Bedrock AgentCore with MCP-based tool integrations
+- 📋 **Compliance engineering:** PCI DSS, ISO 27001 and SOC 2 controls built into the platform
 - 📍 Pune, India
 
 ---
@@ -93,7 +93,7 @@ I work where cloud security meets agentic AI. I have **15+ years in IT** and **7
 ![QRadar](https://img.shields.io/badge/QRadar_SIEM-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-3595F9?style=for-the-badge&logo=wazuh&logoColor=white)
-![Rapid7](https://img.shields.io/badge/Rapid7_InsightVM-E85E26?style=for-the-badge&logoColor=white)
+![Rapid7](https://img.shields.io/badge/Rapid7-E85E26?style=for-the-badge&logoColor=white)
 ![Tenable](https://img.shields.io/badge/Tenable-00A6CE?style=for-the-badge&logo=tenable&logoColor=white)
 ![Entra ID](https://img.shields.io/badge/Entra_ID-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![PAM](https://img.shields.io/badge/PAM-455A64?style=for-the-badge&logoColor=white)
@@ -108,47 +108,48 @@ I work where cloud security meets agentic AI. I have **15+ years in IT** and **7
 
 ### 🛡️ Cloud Security
 
-- **Guardrails:** AWS Organizations, SCP/RCP deny rules, identity perimeter, region and service restrictions
-- **Posture management (CSPM):** AWS Config custom rules with auto-remediation, Security Hub, Wiz, Prisma Cloud, Trend Micro
-- **Network security:** centralized inspection VPC, NGFW, IDS/IPS, IKEv2 VPN hardening, ingress/egress control
-- **Container & Kubernetes security:** EKS upgrades and hardening, runtime monitoring, image scanning
+- **Preventive guardrails:** AWS Organizations, SCPs and RCPs, identity and resource perimeters, region and service restrictions
+- **Posture management (CSPM):** AWS Config managed and custom rules with auto-remediation, Security Hub, Wiz, Prisma Cloud, Trend Micro
+- **Network security:** centralized ingress/egress inspection VPCs, NGFW, IDS/IPS (Suricata), site-to-site VPN hardening (IKEv2, DH 20+, SHA-256+)
+- **Container & Kubernetes security:** Amazon EKS hardening, GuardDuty Runtime Monitoring, container image scanning
 
 ### 🔑 Identity & Access Management
 
-- **SSO & federation:** Entra ID, IAM Identity Center, SAML, SCIM
-- **Privileged access:** PAM with time-bound admin access, root access centralization
-- **Least privilege:** no long-lived IAM keys, local IAM users retired
+- **Federation & SSO:** Entra ID, IAM Identity Center, SAML 2.0, SCIM provisioning
+- **Privileged access:** PAM with just-in-time, time-bound admin access; centralized root access management
+- **Least privilege:** short-lived credentials, permission sets, IAM policy design
 
 ### 🚨 Detection, Response & Vulnerability Management
 
-- **SIEM & SOC:** QRadar, Splunk, log pipelines, alert tuning, SOAR runbooks, L1/L2 response
-- **Threat detection:** GuardDuty (Malware, Runtime, S3, Database), Wazuh FIM, AWS Security Incident Response
-- **Vulnerability management:** Rapid7, Tenable, Inspector, patch automation with SSM, hardened golden images
-- **Offensive testing:** penetration-test coordination, on-demand pentest infrastructure
+- **SIEM & log pipelines:** QRadar, Splunk, CloudTrail, VPC Flow Logs, Kinesis Firehose to Splunk HEC
+- **Threat detection:** GuardDuty (Malware, Runtime, S3, RDS protection), Wazuh FIM, AWS Security Incident Response
+- **Incident response:** SOC playbooks, SOAR runbooks, automated alert routing
+- **Vulnerability management:** Rapid7, Tenable, Amazon Inspector, SSM Patch Manager, hardened golden AMIs and AMI pipelines
+- **Offensive security:** penetration-testing infrastructure as code (Kali Linux)
 
 ### 🤖 AI Automation
 
-- **Agentic AI for operations:** replacing manual L1/L2 workflows with AI agents
-- **Agent platforms:** Amazon Bedrock AgentCore, MCP servers for security tools
-- **GenAI for security:** automated cloud service reviews with Amazon Bedrock
+- **Agentic AI:** autonomous agents for operations workflows on Amazon Bedrock AgentCore
+- **Tool integration:** Model Context Protocol (MCP) servers connecting agents to security platforms
+- **GenAI for security:** LLM-generated security reviews with Amazon Bedrock (Nova)
 
 ### 📋 Compliance & Governance
 
-- **Frameworks:** PCI DSS, PCI SSF, ISO 27001, SOC 2, 3DES/ACS
-- **Governance:** Minimum Security Baselines, SOPs, hardening standards, change approval (CARB), architecture reviews
-- **Audit automation:** evidence from standing controls, serverless inventory data lake for PCI
+- **Frameworks:** PCI DSS, PCI SSF, ISO 27001, SOC 2
+- **Policy as code:** OPA, Bridgecrew and Wiz CLI in CI/CD; minimum security baselines for cloud services
+- **Audit automation:** serverless (Lambda, Python) asset-inventory data lake for continuous compliance evidence
 
 ### 🏗️ Cloud Architecture & Migration
 
-- **Migrations:** Azure and on-premises to AWS (CloudEndure), cross-region DR migrations
-- **Networking:** Transit Gateway hub-and-spoke, hybrid connectivity, VPN, CloudFront CDN
-- **Multi-account:** Landing Zone, account vending, shared-services accounts, StackSets
+- **Migrations:** Azure and on-premises to AWS (CloudEndure), cross-region failover
+- **Networking:** Transit Gateway hub-and-spoke, hybrid connectivity, Route 53 private hosted zones, CloudFront CDN
+- **Multi-account design:** AWS Landing Zone, account vending, shared-services VPC endpoints
 
 ---
 
 ## 🎯 Philosophy
 
-Whether I'm designing guardrails for a multi-account AWS organization, preparing for a PCI audit, or building an AI agent that takes over a manual workflow, my goal is the same: **make the secure path the easy path, and let automation do the repetitive work.**
+Whether I'm designing guardrails for a multi-account AWS organization, engineering PCI DSS controls, or building an AI agent that takes over a manual workflow, my goal is the same: **make the secure path the easy path, and let automation do the repetitive work.**
 
 ---
 
