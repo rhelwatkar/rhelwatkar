@@ -19,17 +19,6 @@ I work where cloud security meets agentic AI. I have **15+ years in IT** and **7
 
 ---
 
-## 💼 Experience
-
-| Years | Company | What I work on |
-|---|---|---|
-| 2025 – now | **Pine Labs** | Lead infra security and an AI automation team. Moved AWS access to Entra ID SSO with PAM, set up QRadar SIEM with a managed SOC, upgraded EKS 1.28 → 1.35, led the AWS UAE → Frankfurt migration during a regional outage, and built AI agents for L1/L2 operations |
-| 2021 – 2025 | **Global Payments** | Cloud security architecture: organization-wide SCP/RCP guardrails, CSPM with auto-remediation, an inspection VPC with NGFW, policy as code (OPA, Wiz CLI), and a serverless PCI audit data lake |
-| 2018 – 2021 | **Zensar Technologies** | AWS architecture: Azure/on-prem → AWS migrations, Transit Gateway hub-and-spoke, VMware Cloud on AWS, CloudFront and multi-account IaC |
-| 2010 – 2018 | Earlier roles | Systems engineering on AWS, Azure, Windows Server, AD and data-centre operations |
-
----
-
 ## 🛠️ Tech Stack & Skills
 
 ### ☁️ Cloud & Infrastructure
